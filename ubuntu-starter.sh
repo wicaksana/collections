@@ -17,7 +17,7 @@ sudo curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubun
 sudo apt-get install unity-tweak-tool
 
 # development tools
-sudo apt-get install openjdk-8-jdk maven git vim virtualbox
+sudo apt-get install maven git vim virtualbox
 
 # install python's stuff
 sudo apt-get install python3-pip libpython3.5-dev python3.5-venv libzmq3-dev libblas-dev liblapack-dev libatlas-base-dev gfortran libfreetype6-dev
