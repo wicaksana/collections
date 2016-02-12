@@ -16,6 +16,11 @@ sudo curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubun
 # install unity-tweak-tool to easily change theme
 sudo apt-get install unity-tweak-tool
 
+# java
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+
 # development tools
 sudo apt-get install maven git vim virtualbox
 
