@@ -33,3 +33,7 @@ pip3 install numpy pandas scikit-learn matplotlib statsmodels beautifulsoup4 net
 # install Calibre
 sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"
 
+# create loopback interface. 
+# read: http://myhomelab.blogspot.nl/2011/12/add-loopbacks-in-ubuntu-for-gns3.html
+sudo ip tuntap add dev tap1 mode tap user arif group arif
+sudo ifconfig tap1 172.169.0.1 netmask 255.255.255.0 up
